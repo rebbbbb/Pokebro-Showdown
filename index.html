@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokebro Showdown</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  
+  <body class="bodyIndex">
+    <div class="divImgIndex"><img src="./img/logo.png" alt="logo" height="200px" width="auto"></div>
+    <img class="whiteLineIndex" src="./img/whiteLine.png" alt="whiteLine">
+
+    </br>
+    </br>
+
+    <!-- NOME -->
+    <div class="nomeUtente">
+        <div class="quadratoUno"><p>Scegli un nome:  <br/><input type="text" id="nome"/></p></div>
+        <div class="quadratoDue"><button type="submit" value="Salva" onclick="SalvaNome()" class="buttonSalva">Salva</button> </div>
+    </div>    
+
+    <!-- GENERAZIONI e COMBATTIMENTO -->
+    <div class="genPoke">
+        <p>Scegli la generazione:
+            <select id="generazioni">
+                <option id="GenPrima" value="0">Prima generazione</option>
+                <option id="GenSeconda" value="1">Seconda generazione</option>
+                <option id="GenTerza" value="2">Terza generazione</option>
+                <option id="GenQuarta" value="3">Quarta generazione</option>
+                <option id="GenQuinta" value="4">Quinta generazione</option>
+                <option id="GenSesta" value="5">Sesta generazione</option>
+                <option id="GenSettima" value="6">Settima generazione</option>
+                <option id="GenOttava" value="7">Ottava generazione</option>
+                <option id="GenNona" value="8">Nona generazione</option>
+            </select>
+        </p>
+        
+        <button class="buttonFight" onclick="generaStringhe()">Fight!</button>
+        
+        <script src="genera-stringhe.js"></script>
+    </div>
+
+    <!-- FOOTER INDEX -->
+    <div class="fonti">
+      <p>Logo creato con <a href="https://logo.com/" target="_blank" class="linkLogo">LOGO</a>.</p>
+      <p>Sfondo preso da <a href="https://www.deviantart.com/quanyails/art/Sunrise-Ocean-402667154" target="_blank" class="linkSfondo">Deviant Art</a>.</p>
+      <p>Per il pokedex puoi vedere <a href="./elenco.html" target="_blank" class="linkPokedex">qui</a>.</p>
+  </div>
+  </body>
+</html>

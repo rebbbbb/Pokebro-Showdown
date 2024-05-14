@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokebro Showdown</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  
+  <body class="bodyIndex">
+
+    <div class="divImgFight"><img src="./img/logo.png" alt="logo" height="130px" width="auto"></div>
+
+    <!-- REINDIRIZZAMENTO HOME -->
+    <button class="buttonHome" onclick="confirmRedirect()">Home</button>
+    
+    <br/>
+
+    <img class="whiteLineRIsultato" src="./img/whiteLine.png" alt="whiteLine">
+
+    <!-- AVVERSARIO -->
+    <div class="P_Avversario_P">
+        <strong>Avversario:</strong> 
+        <span id="stringa1"></span>
+        <br/>
+        <br/>
+        <strong>HP:</strong>
+        <span id="hp1"></span>
+    </div>
+
+    <!-- UTENTE -->
+    <div class="P_Utente_P">
+        <strong>Tu:</strong> 
+        <span id="stringa2"></span>
+        <br/>
+        <br/>
+        <strong>HP:</strong>
+        <span id="hp2"></span>
+        <br/>
+        <div class="divButtonAttacca"><button class="buttonAttacca" onclick="attaccaAvversario()">Attacca!</button></div>
+    </div>
+
+    <script src="mostra-risultato.js"></script>
+  </body>
+</html>

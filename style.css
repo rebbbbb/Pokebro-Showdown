@@ -1,0 +1,215 @@
+.bodyIndex{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./img/WallpaperSunriseOcean.png);
+    font-size: 100%;
+    display:inline-block;
+    background-size:cover;
+}
+
+.nomeUtente, .genPoke{
+    padding: 1%;
+    margin: 15px;
+    max-width: 270px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.6);
+    color: white;
+    font-size: 120%;
+}
+
+.fonti{
+    font-size: 80%;
+    padding: 0.5%;
+    margin: 15px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.6);
+    color: white;
+    float: right;
+    height: auto;
+    width: auto;
+}
+
+.imgElenco, .divImgElenco{
+    width: auto;
+    height: 200px;
+    text-align: center;
+}
+
+.divImgIndex{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin-bottom: -0.6%;
+}
+
+.divImgFight{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin-bottom: -2.13%;
+}
+
+#primaGen, #secondaGen, #terzaGen, #quartaGen, #quintaGen, #sestaGen, #settimaGen, #ottavaGen, #nonaGen{
+    padding: 2.2%;
+    margin: 15px;
+    max-width: 270px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.2);
+    color: black;
+}
+
+.topnavElenco{
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnavElenco a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.divImgElenco{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.linkHomeElenco:visited, .linkIndexHome:visited, .primaLink:visited, .secondaLink:visited, .terzaLink:visited, .quartaLink:visited, .quintaLink:visited, .sestaLink:visited, .settimaLink:visited, .ottavaLink:visited, .nonaLink:visited{
+    color: rgb(203, 203, 203);
+}
+
+#seconoTipo{
+    margin-top: 3px;
+}
+
+#primoTipo, #seconoTipo{
+    border-radius: 5px;
+}
+
+#pokemonGen{
+    float: left;
+}
+
+.linkFooter a, .linkLogo a, .linkSfondo  a, .linkPokedex a{
+    color: rgb(168, 191, 255);
+}
+
+.linkLogo:visited, .linkSfondo:visited, .linkPokedex:visited, .linkFooter:visited{
+    color: rgb(168, 191, 255);
+}
+
+.whiteLineIndex{
+    height: 10px;
+    width: 1536px;
+    margin-top: 1.4px;
+}
+
+.whiteLineRIsultato{
+    height: 10px;
+    width: 1536px;
+    margin-top: -21px;
+}
+
+footer{
+    font-size: 80%;
+    padding: 0.5%;
+    margin: 15px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.6);
+    color: white;
+    float: right;
+    height: auto;
+    width: 215px;
+}
+
+.buttonSalva{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.buttonHome{
+    height: 45px;
+    width: 90px;
+    margin-top: -20px;
+    border-color: white;
+    color: black;
+    margin-left: 230px;
+}
+
+.buttonAttacca{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.divButtonAttacca{
+    text-align: center;
+}
+
+.buttonFight{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+#nome, #generazioni{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.notaIndex{
+    font-size: 10px;
+}
+
+.divImgFighting{
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.P_Avversario_P{
+    margin-right: 70px;
+    margin-top: 1.5%;
+    float: right;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 100%;
+    font-size: 115%;
+}
+
+.P_Utente_P{
+    margin-left: 70px;
+    margin-top: 1.5%;
+    float: left;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 115%;
+}
+
+#tipiPoke{
+    float: right;
+}
+
+#myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 60px;
+    right: 75px;
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 12px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
+}
